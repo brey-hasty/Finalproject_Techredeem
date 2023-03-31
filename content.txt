@@ -1,8 +1,7 @@
 Company mission statement:
 
- Here at Techre_deem, we are a non-profit who pride ourselfs on establishing equal access to technology around 
-the world. My team and I came together to create Techre_deem,through our shared goal of providing technology to those in need of assistence while, 
-minimumizing technologies impact on the environment.
+Here at Techre_deem, we are a non-profit who pride ourselves on establishing equal access to technology around the world. My team and I came together to create Techre_deem, through our shared goal of providing technology to those in need of assistance while, 
+minimizing technologies impact on the environment.
 
 Company Slogan:
 
