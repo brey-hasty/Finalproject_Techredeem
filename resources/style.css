@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html{
+    font-size: 22px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color:#7AB0CD;
+    width: 100%;
+    padding-top: 1.5rem;
+}
+.navbar ul{
+    display: flex;
+    flex-direction:row;
+    list-style-type: none;
+   gap: 2rem;
+}
+.nav-link{
+    display: flex;
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: gray;
+
+}
+.logo{
+    width: 10rem;
+    height: auto;
+    padding: 0 2rem .5rem .5rem
+}
+.search-cart{
+    position: absolute;
+    right: 5rem;
+
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.cart{
+    width: 1.5rem;
+    height: auto;
+    position: absolute;
+    right: 3rem;
+}
+
+.flip-horizontally {
+    transform: scaleX(-1);
+  }
