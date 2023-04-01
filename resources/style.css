@@ -25,30 +25,36 @@ header{
 .nav-link{
     display: flex;
     font-size: 1rem;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 .nav-link:hover{
-    color: gray;
+    color: black;
+
+}
+.nav-link:active{
+    color: black;
 
 }
 .logo{
     width: 10rem;
     height: auto;
-    padding: 0 2rem .5rem .5rem
+    padding: 0 1.5rem .5rem .5rem
 }
 .search-cart{
     position: absolute;
     right: 5rem;
 
 }
-input{
+ input.search{
     width: 250px;
     height: 30px;
     border-radius: 15px;
 }
-
+.search{
+    padding-left: 1rem;
+}
 .cart{
     width: 1.5rem;
     height: auto;
@@ -59,3 +65,133 @@ input{
 .flip-horizontally {
     transform: scaleX(-1);
   }
+/*donation section form*/
+
+#donate-today{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+.asset-donation2{
+    position: relative;
+    width: 25rem;
+    height: auto;
+    padding: 2rem 2rem 2rem 1rem;
+}
+
+.donation-form{
+    height: 40px;
+    border-radius: 30px;
+    padding-top: 10rem;
+    padding-right: 1rem;
+}
+.donation-form h2{
+    font-size: 3rem;
+    color:#7AB0CD;
+    padding-bottom: 1.5rem;
+}
+input{
+    font-size: .65rem;
+}
+input.placeholder-text{
+    padding-left: 1rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.form-info{
+    border: .1rem solid; 
+    height: 1.75rem;
+    color: #7AB0CD;
+    margin-top: .5rem;
+}
+
+.donation-submit{
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    align-self: center;
+    color: white;
+    background-color:#FAD7CE;
+
+}
+/*newletter section*/
+
+.newsletter{
+    display: flex;
+    justify-content: center;
+}
+.newsletter h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 10rem;
+    color: white;
+    font-size: 2.5rem;
+    background-color: #202C39;
+    margin-bottom: 2rem;
+}
+
+/*subscribe section*/
+.subscribe-form-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.subscribe-form{
+    padding-top: 2rem;
+    width: 25rem;
+    padding-left: 1rem;
+}
+
+.subscribe-img{
+    position: relative;
+    width: 25rem;
+    height: auto;
+    padding-left: 1rem;
+    padding-bottom: 5rem;
+    padding-left: 2rem
+}
+
+.subscribe-submit{
+
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    align-self: center;
+    color: white;
+    background-color:#FAD7CE;
+}
+/*footer section*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    background-color: #AEEB98;
+
+}
+#footer-imgs{
+    display: flex;
+    flex-direction: row;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    gap: .5rem;
+}
+.footer-img{
+    width: 1.25rem;
+    height: auto;
+}
+footer h4{
+    padding-bottom:.5rem;
+    font-size: .85rem;
+    font-weight: 350;
+}
