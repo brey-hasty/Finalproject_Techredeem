@@ -59,3 +59,69 @@ input{
 .flip-horizontally {
     transform: scaleX(-1);
   }
+
+  h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.banner {
+    margin-top: 50px;
+    margin-bottom: 90px;
+    padding-top: 40px;
+    padding-left: 67px;
+}
+h1{
+    text-align: center;
+    /* padding-bottom: 20px; */
+     font-size: 58px;
+}
+.product-price {
+  font-size: 16px;
+  /* font-weight: bold; */
+}
+.product-image {
+  width: 100px;
+  height: 150px;
+}
+.product {
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.faq{
+    text-align: center;
+    font-size: 50px;
+}
+.faq-section{
+    overflow: hidden;
+}
+ul{
+    font-weight: bold;
+    font-size: large;
+    float: left;
+    padding-left: 10%;
+    margin-top: 55px;
+  
+}
+.faq-img{
+width: 40%;
+/* display: inline-block; */
+float: right;
+}
+
+
+.footer-img {
+  width: 1.5rem;
+    height: auto;
+    position: top;
+    /* align-items: center; */
+   
+}
+
+footer {
+    background-color:#AEEB98;
+    text-align: center;
+margin-top: 10px;
+}  
