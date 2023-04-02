@@ -7,4 +7,34 @@ Company Slogan:
 
 Lets come together and tackle technologies ecological footprint, lets redeem!
 
+Header Code: 
 
+ <div class="logo">
+        <img src="./photos/img-logo.svg" alt="Logo">
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About Us</a></li>
+          <li><a class="nav-link" href="products.html">Products</a></li>
+          <li><a class="nav-link" href="form.html">Form</a></li>
+        </ul>
+      </nav>
+        <div class="search-bar">
+          <form action="#" method="get">
+            <input class="search" type="text" name="search" placeholder="Search...">
+          </form>
+        <div class="cart flip-horizontally">
+          <a href="#">
+            <img src="./Vectors/shopping_cart.svg" alt="Cart">
+          </a>
+        </div>
+      </div>
+
+Footer Code: 
+
+<div id="footer-imgs">
+          <img class="footer-img" src="photos/icon-instagram.png" alt="instagram icon">
+          <img class="footer-img" src="photos/icon-twitter.png" alt="twitter icon">
+      </div>
+        <h4>Copyright @Techre_deem  All rights reserved | Private Policy | Terms of  Use | Sales and Refunds</h4>
