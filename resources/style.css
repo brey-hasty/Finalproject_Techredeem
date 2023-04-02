@@ -199,7 +199,7 @@ footer h4{
 }
 
 
-  h2 {
+.product-name {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;
@@ -211,7 +211,7 @@ footer h4{
     padding-top: 40px;
     padding-left: 67px;
 }
-h1{
+.Shop-product{
     text-align: center;
     /* padding-bottom: 20px; */
      font-size: 58px;
@@ -236,7 +236,7 @@ h1{
 .faq-section{
     overflow: hidden;
 }
-ul{
+.faq-ul{
     font-weight: bold;
     font-size: large;
     float: left;
