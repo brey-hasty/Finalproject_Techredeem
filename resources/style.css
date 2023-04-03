@@ -7,13 +7,14 @@
 html{
     font-size: 22px;
     box-sizing: border-box;
+}
 
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
-}
+
 
 header{
     display: flex;
@@ -212,14 +213,14 @@ footer h4{
 }
 
 .banner {
-    margin-top: 50px;
+    margin-top: 3.125rem;
     margin-bottom: 90px;
     padding-top: 40px;
     padding-left: 67px;
 }
 .Shop-product{
     text-align: center;
-    /* padding-bottom: 20px; */
+    padding-bottom: 30px;
      font-size: 58px;
 }
 .product-price {
@@ -227,17 +228,27 @@ footer h4{
   /* font-weight: bold; */
 }
 .product-image {
-  width: 100px;
-  height: 150px;
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 10px;
 }
 .product {
-    display: inline-block;
-    flex-direction: column;
-    flex-wrap: wrap;
+   width: calc(23.33% - 20px);
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  margin-left: 90px;
+}
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 .faq{
     text-align: center;
-    font-size: 50px;
+    font-size: 3.125rem;
+    padding-bottom: 1.875rem;
+    padding-top:	2.5rem;
 }
 .faq-section{
     overflow: hidden;
@@ -246,14 +257,24 @@ footer h4{
     font-weight: bold;
     font-size: large;
     float: left;
-    padding-left: 10%;
-    margin-top: 55px;
-  
+    padding-left: 30%;
+    margin-top: 3.4375rem;
 }
+.accordion {
+ padding-bottom: 20px;
+ font-weight: bold;
+ font-size: 15px;
+}
+/* .faq-image-holder{
+   
+} */
 .faq-img{
 width: 40%;
 /* display: inline-block; */
 float: right;
+margin-bottom: 20px;
+ border: 20px solid #f4E5E1;
+
 }
 
    /* Products Section */ 
@@ -301,6 +322,7 @@ float: right;
     width: 100%;
     max-width: 400px;
     height: auto;
+    display: grid;
 }
 
   
