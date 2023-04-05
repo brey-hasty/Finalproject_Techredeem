@@ -217,6 +217,7 @@ footer h4{
     margin-bottom: 90px;
     padding-top: 40px;
     padding-left: 67px;
+  
 }
 .Shop-product{
     text-align: center;
@@ -245,25 +246,28 @@ footer h4{
   flex-wrap: wrap;
 }
 .faq{
-    text-align: center;
+width: 50%;
     font-size: 3.125rem;
-    padding-bottom: 1.875rem;
     padding-top:	2.5rem;
+    color: #7AB0CD;
+    font-weight: lighter;
 }
 .faq-section{
     overflow: hidden;
 }
 .faq-ul{
+    width: 50%;
     font-weight: bold;
-    font-size: large;
+    font-size: medium;
     float: left;
-    padding-left: 30%;
+    /* padding-left: 30%; */
     margin-top: 3.4375rem;
 }
 .accordion {
- padding-bottom: 20px;
+    width: 50%;
+ /* padding-bottom: 1.25rem; */
  font-weight: bold;
- font-size: 15px;
+ font-size: 1.6rem;
 }
 /* .faq-image-holder{
    
@@ -272,8 +276,8 @@ footer h4{
 width: 40%;
 /* display: inline-block; */
 float: right;
-margin-bottom: 20px;
- border: 20px solid #f4E5E1;
+margin-bottom: 1.25rem;
+ border: 1.25rem solid #f4E5E1;
 
 }
 
