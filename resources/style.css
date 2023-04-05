@@ -251,6 +251,7 @@ width: 50%;
     padding-top:	2.5rem;
     color: #7AB0CD;
     font-weight: lighter;
+    padding-left: 20.5rem;
 }
 .faq-section{
     overflow: hidden;
@@ -262,12 +263,14 @@ width: 50%;
     float: left;
     /* padding-left: 30%; */
     margin-top: 3.4375rem;
+     /* padding-left: 10.5rem; */
 }
 .accordion {
     width: 50%;
  /* padding-bottom: 1.25rem; */
  font-weight: bold;
  font-size: 1.6rem;
+ 
 }
 /* .faq-image-holder{
    
