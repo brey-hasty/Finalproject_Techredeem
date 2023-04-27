@@ -350,3 +350,28 @@ margin-bottom: 1.25rem;
 
 
 /* End of Products Section */
+
+
+/*About Section --Meet Our Team */
+.MOT{
+    display: flex;
+    flex-direction: column;
+    
+}
+.MOT h2{
+     display: flex;
+     justify-content: center;
+     padding-bottom: 2rem;
+    
+}
+.imgs-MOT {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.img-profile{
+    width: 200px;
+    height: auto;
+
+}
