@@ -418,12 +418,12 @@ figcaption {
 
 .brey-titles {
     position: relative;
-    left: 4rem;
+    left: 7rem;
     top: 5.5rem;
     color:#2F5D75;
 }
 .wordwrap{
-    width: 60%;
+    width: 250px;
 }
 .brey-role h2{
     position: relative;
