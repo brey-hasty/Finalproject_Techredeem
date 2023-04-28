@@ -1,7 +1,7 @@
 *{
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 html{
@@ -286,25 +286,14 @@ margin-bottom: 1.25rem;
 
    /* Products Section */ 
 
-   .banner-products {
-    background-image: url('./photos/img-banner-products.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) {
-  /* Adjust banner styles for screens wider than 768px */
-  .banner-products {
-    background-size: cover;
+   #prod-container {
+    display: block;
     width: 100%;
-    margin-left: -150px;
-    padding-top: 3rem;
-    height: 44vh;
+    margin-top:1.3rem ;
+    margin-left: -6rem;
+    height: 35vh;
   }
-}
+
 
 
   .grid-container {
@@ -312,7 +301,7 @@ margin-bottom: 1.25rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 200px;
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
  
   .grid-container > div {
@@ -325,14 +314,17 @@ margin-bottom: 1.25rem;
     text-align: center;
   }
  
-  .products {
+  .prod-sec {
     width: 100%;
     max-width: 400px;
     height: auto;
     display: grid;
 }
 
-  
+.item {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
 
 
  .arrow-container {
@@ -346,10 +338,65 @@ margin-bottom: 1.25rem;
     height: auto; 
     padding-top: 50px;
     padding-bottom: 200px;
+  } /* End of Products Section */
+
+/* About Us section begins here */
+
+
+.container1 {
+    display: flex;
+    color: #7AB0CD;
+}
+
+
+.aboutus-logo {
+    width: 65rem;
+    height:auto;
+    margin-top: 8rem;
+    margin-right: 14rem;
+    margin-bottom: 9rem;
+    margin-left: 8rem;
+}
+
+
+.opacity-H {
+   margin-top: 1rem;
+   font-size: 18rem;
+   height: 13.4rem;
+   width: 8rem;
+   opacity: 0.4;
+}
+
+
+.paragraph-1 {
+    font-size: 4rem;
+    margin-top: -3.5rem;
+    margin-right: 8rem;
+    margin-bottom: 1.4rem;
+    text-indent: 7.7rem;
+   }
+
+
+  .quote {
+    text-align: center;
+    font-size: 4.5rem;
+    padding-right: 40rem;
+    padding-left: 40rem;
+    margin-bottom: 2.5rem;
+    color: black;
   }
 
 
-/* End of Products Section */
+#left {
+    margin-bottom: 2.8rem;
+    width: 2.8rem;
+}
+
+
+#right {
+ margin-left: 2.5rem;
+ width: 2.8rem;  
+}
 
 
 /*About Section --Meet Our Team */
@@ -434,3 +481,17 @@ figcaption {
     text-transform: uppercase;
     color: #7AB0CD;
 }
+=======
+#left {
+    margin-bottom: 2.8rem;
+    width: 2.8rem;
+}
+
+#right {
+ margin-left: 2.5rem; 
+ width: 2.8rem;  
+}
+
+
+
+
