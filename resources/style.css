@@ -356,22 +356,81 @@ margin-bottom: 1.25rem;
 .MOT{
     display: flex;
     flex-direction: column;
-    
 }
 .MOT h2{
      display: flex;
      justify-content: center;
      padding-bottom: 2rem;
-    
+     
 }
 .imgs-MOT {
     display: flex;
     justify-content: center;
     gap: 5rem;
+  
 }
 
-.img-profile{
+.img-profile {
     width: 200px;
     height: auto;
 
+}
+
+figcaption {
+    font-size: .75rem;
+    width: 425px;
+    padding-top: .55rem;
+    padding-bottom: 1rem;
+}
+
+.profile-title{
+    position: absolute;
+}
+.mary-titles{
+    position: relative;
+    right: 23.5rem;
+    top: 5.5rem;
+    color:#2F5D75;
+}
+.mary-role h2{
+    position: relative;
+    font-size: .85rem;
+    right: 19.5rem;
+    top: 4rem;
+    padding-left: 2rem;
+    text-transform: uppercase;
+    color: #7AB0CD;
+}
+.milly-titles{
+    position: relative;
+    left: 6.5rem;
+    top: 5.5rem;
+    color:#2F5D75;
+}
+.milly-role h2{
+    position: relative;
+    font-size: .85rem;
+    left: 9rem;
+    top: 4rem;
+    text-transform: uppercase;
+    color: #7AB0CD;
+}
+
+.brey-titles {
+    position: relative;
+    left: 4rem;
+    top: 5.5rem;
+    color:#2F5D75;
+}
+.wordwrap{
+    width: 60%;
+}
+.brey-role h2{
+    position: relative;
+    word-wrap: break-word;
+    font-size: .85rem;
+    left: 9.5rem;
+    top: 4rem;
+    text-transform: uppercase;
+    color: #7AB0CD;
 }
