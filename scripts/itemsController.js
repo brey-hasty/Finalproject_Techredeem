@@ -1,11 +1,11 @@
-class ItemsController {
+ export class ItemsController {
     constructor() {
       this.items = [];
      this.latestItemId = 0; // initialize the latest item id
     }
  
     addItem(name, description, img) {
-      const newItem = {
+       const newItem = {
         id: this.latestItemId + 1, // increment the latest item id
         name,
         description,
@@ -30,3 +30,15 @@ class ItemsController {
   // id 1 is airpod, id 2 is Dell, id 3 is iphone max, id 4 is ipad pro, id 5 is apple smart watch, id 6 is ipad pro2, id 7 is samsung galaxy, id 8 is smart watch, and id 9 is gaming laptop
   console.log(itemsController.items);
 
+  loadItemsFromLocalStorage() {
+    const storageItems = localStorage.getItem("items")
+    if (storageItems) {
+        const items = JSON.parse(storageItems)
+        for (var i = 0, size = items.length; i < size; i++) {
+            const item = items[i];
+            this.items.push(item);
+        }
+    }
+  };
+
+  export {newItem, itemsController};

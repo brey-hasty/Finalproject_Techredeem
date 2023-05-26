@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600&display=swap');
 *{
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: 'Inter', sans-serif;
 }
 
 html{
@@ -16,12 +18,13 @@ body {
 }
 
 
-header{
+
+header {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     background-color:#7AB0CD;
     width: 100%;
-    padding-top: 1.5rem;
+    padding-top: 1.5rem; 
 }
 .navbar ul{
     display: flex;
@@ -37,15 +40,17 @@ header{
 }
 
 .nav-link:hover{
-    color: black;
+    color:#FAD7CE;
+    ;
 
 }
 .nav-link:active{
-    color: gray;
-
+    color: pink;
 }
+
+
 .logo{
-     min-width: 8rem;
+    min-width: 10rem;
     height: auto;
     padding: 0 1.5rem .5rem 2.5rem;
 }
@@ -246,8 +251,9 @@ footer h4{
   flex-wrap: wrap;
 }
 .faq{
-width: 50%;
+    width: 50%;
     font-size: 3.125rem;
+    font-weight: 400;
     padding-top:	2.5rem;
     color: #7AB0CD;
     font-weight: lighter;
@@ -286,46 +292,37 @@ margin-bottom: 1.25rem;
 
    /* Products Section */ 
 
-   #prod-container {
-    display: block;
-    width: 100%;
-    margin-top:1.3rem ;
-    margin-left: -6rem;
-    height: 35vh;
-  }
-
-
-
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 200px;
-    padding-top: 2rem;
-  }
- 
-  .grid-container > div {
+.jumbotron {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    padding: 20px;
-    text-align: center;
-  }
- 
-  .prod-sec {
+    background-size: cover;
+    height: 20vw;
+    margin: 1rem 1rem;
+}
+
+   .row {
+    display: flex;
+    justify-content:space-between;
+   }
+  .small-img {
+    transition: all 0.3s;
     width: 100%;
-    max-width: 400px;
-    height: auto;
-    display: grid;
-}
+    height: 10vw;
+    object-fit: scale-down;
+    margin: 4rem 20rem;
+   
+  } 
 
-.item {
-    margin-top: 2.5rem;
-    margin-bottom: 1rem;
-}
+  .small-img:hover {
+    transform: scale(1.5);
+ }
 
+ .card-title,
+.card-text {
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
 
  .arrow-container {
     display: flex;
@@ -334,70 +331,82 @@ margin-bottom: 1.25rem;
  }
   
   .arrows {
-    max-width: 3%; 
+    max-width: 6%; 
     height: auto; 
-    padding-top: 50px;
-    padding-bottom: 200px;
-  } /* End of Products Section */
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+  } 
+  
+  
+  /* End of Products Section */
 
 /* About Us section begins here */
 
-
-.container1 {
-    display: flex;
-    color: #7AB0CD;
-}
-
-
-.aboutus-logo {
-    width: 65rem;
-    height:auto;
-    margin-top: 8rem;
-    margin-right: 14rem;
-    margin-bottom: 9rem;
-    margin-left: 8rem;
-}
-
-
-.opacity-H {
-   margin-top: 1rem;
-   font-size: 18rem;
-   height: 13.4rem;
-   width: 8rem;
-   opacity: 0.4;
-}
-
-
-.paragraph-1 {
-    font-size: 4rem;
-    margin-top: -3.5rem;
-    margin-right: 8rem;
-    margin-bottom: 1.4rem;
-    text-indent: 7.7rem;
-   }
-
-
-  .quote {
-    text-align: center;
-    font-size: 4.5rem;
-    padding-right: 40rem;
-    padding-left: 40rem;
-    margin-bottom: 2.5rem;
-    color: black;
-  }
-
-
-#left {
-    margin-bottom: 2.8rem;
-    width: 2.8rem;
-}
-
-
-#right {
- margin-left: 2.5rem;
- width: 2.8rem;  
-}
-
+.word-container { 
+    font-size: 2rem; 
+    font-weight: 200;
+    color: #7AB0CD; 
+    margin-top: 4rem; 
+    margin-right: 2rem; 
+    padding: 3rem;
+    text-indent: 9rem; 
+    text-align: left; 
+  } 
+   
+  .first-letter { 
+    font-size: 14rem; 
+    font-weight: bold; 
+    opacity: 0.3; 
+    position: absolute; 
+    margin-top: -2rem; 
+    padding: 2.5rem;
+  } 
+ 
+ 
+.content-wrapper { 
+    color: #7AB0CD; 
+    position: relative; 
+  } 
+   
+  .img-fluid { 
+    
+    height: 14rem; 
+    margin-top: 4rem; 
+    margin-left: 4rem; 
+    margin-bottom: 2rem; 
+    margin-right: 0; 
+  } 
+   
+  .row.gy-3.d-flex { 
+    align-items: flex-start; 
+  } 
+   
+  .col-md-6 { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+  } 
+   
+  .quote { 
+    text-align: center; 
+    font-size: 2rem; 
+    font-weight: 100;
+    margin-right: 14rem; 
+    margin-left: 14rem; 
+    margin-bottom: 3rem; 
+    color: black; 
+  } 
+   
+  #left { 
+    margin-bottom: 2.8rem; 
+    width: 2.8rem; 
+  } 
+   
+  #right { 
+    margin-left: 2.5rem; 
+    width: 2.8rem; 
+  } 
+ 
 
 /*About Section --Meet Our Team */
 .MOT{
@@ -407,6 +416,7 @@ margin-bottom: 1.25rem;
 .MOT h2{
      display: flex;
      justify-content: center;
+     font-size: 2rem;
      padding-bottom: 2rem;
      
 }
@@ -424,7 +434,7 @@ margin-bottom: 1.25rem;
 }
 
 figcaption {
-    font-size: .75rem;
+    font-size: .85rem;
     width: 425px;
     padding-top: .55rem;
     padding-bottom: 1rem;
@@ -437,11 +447,13 @@ figcaption {
     position: relative;
     right: 23.5rem;
     top: 5.5rem;
+    font-size: 1rem;
     color:#2F5D75;
 }
 .mary-role h2{
     position: relative;
-    font-size: .85rem;
+    font-size: .95rem;
+    font-weight: 400;
     right: 19.5rem;
     top: 4rem;
     padding-left: 2rem;
@@ -452,11 +464,13 @@ figcaption {
     position: relative;
     left: 6.5rem;
     top: 5.5rem;
+    font-size: 1rem;
     color:#2F5D75;
 }
 .milly-role h2{
     position: relative;
-    font-size: .85rem;
+    font-size: .95rem;
+    font-weight: 400;
     left: 9rem;
     top: 4rem;
     text-transform: uppercase;
@@ -467,6 +481,7 @@ figcaption {
     position: relative;
     left: 7rem;
     top: 5.5rem;
+    font-size: 1rem;
     color:#2F5D75;
 }
 .wordwrap{
@@ -475,21 +490,12 @@ figcaption {
 .brey-role h2{
     position: relative;
     word-wrap: break-word;
-    font-size: .85rem;
+    font-size: .95rem;
+    font-weight: 400;
     left: 9.5rem;
     top: 4rem;
     text-transform: uppercase;
     color: #7AB0CD;
-}
-=======
-#left {
-    margin-bottom: 2.8rem;
-    width: 2.8rem;
-}
-
-#right {
- margin-left: 2.5rem; 
- width: 2.8rem;  
 }
 
 
