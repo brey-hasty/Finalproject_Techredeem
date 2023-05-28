@@ -37,19 +37,20 @@
             <img class="asset-donation2" src="photos/img-asset-donation2.png" alt="Woman holding an ipad with hand raised">
             <div class="donation-form">
               <h2>Donate Today</h2>
-              <form method="post" action="#">
+              <form>
                   Name:    
                   <div class="form-info">         
-                  <input class="placeholder-text" type="text" name="fname" placeholder="Enter your name..">
+                  <input class="placeholder-text placeHolder" type="text" id= "fname" name="fname" placeholder="Enter your name.." value="Enter your name.." required>
                 </div>
                   <br>
                   Email:
                   <div class="form-info">  
-                  <input class="placeholder-text" type="email" name="email" placeholder="Enter your email..">
+                  <input class="placeholder-text" type="email" id="email" name="email" placeholder="Enter your email.." value="Enter your email.." required>
                   </div>
                   <br>
-                  <input class="donation-submit" type="submit" value="submit">
+                  <button class="donation-submit" id= "donButton"type="submit" value="submit">submit</button>
               </form>
+              <p id="message-don"></p>
             </div>
         </section>
         <section class="newsletter">
@@ -58,19 +59,20 @@
         <section id="subscribe">
             <div class="subscribe-form-content">
               <div class="subscribe-form">
-                <form method="post" action="#">
+                <form>
                   Name:       
                   <div class="form-info">         
-                  <input class="placeholder-text" type="text" name="fname" placeholder="Enter your name..">
+                  <input class="placeholder-text" type="text" id= "fname" name="fname" placeholder="Enter your name.." value="Enter your name.." required>
                   </div>
                   <br>
                   Email:
                   <div class="form-info">  
-                  <input class="placeholder-text" type="email" name="email" placeholder="Enter your email..">
+                  <input class="placeholder-text placeHolder" type="email" id="email" name="email" placeholder="Enter your email.." value="Enter your email.." required>
                   </div>
                   <br>
-                  <input class="subscribe-submit" type="submit" value="submit">
+                  <button class="subscribe-submit" id= "subButton" type="submit" value="submit">submit</button>
               </form>
+              <p id="message-sub"></p>
             </div>
             <img class="subscribe-img" src="photos/img-subscribe.jpg" alt="Woman and child hovering over a laptop">
           </div>
@@ -83,5 +85,6 @@
       </div>
         <h4>Copyright @Techre_deem  All rights reserved | Private Policy | Terms of  Use | Sales and Refunds</h4>
     </footer>
+    <script src="scripts/Form.js"></script>
 </body>
 </html>

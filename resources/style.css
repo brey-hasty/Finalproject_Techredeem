@@ -133,6 +133,16 @@ form{
     background-color:#FAD7CE;
 
 }
+
+.placeholder-text{
+  opacity: 50%;
+}
+
+#message-don, #message-sub{
+  color: #7AB0CD;
+  padding-top: 1rem;
+}
+
 /*newletter section*/
 
 .newsletter{
