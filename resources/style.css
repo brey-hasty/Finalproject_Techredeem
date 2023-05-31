@@ -508,3 +508,272 @@ figcaption {
 
 
 
+/*-----------------media queries-------------------*/
+
+/*xxsm*/
+@media (max-width: 559px) {
+    .donation-form h2{
+    white-space: nowrap;
+    }
+} 
+
+/*xsm*/
+@media(max-width: 669px){
+    .donation-form h2{
+    white-space: nowrap;
+        
+     }
+}
+/*sm*/
+@media(max-width: 734px){
+    .donation-form h2{
+    white-space: nowrap;
+        
+     }
+
+     
+}
+
+/*sm-md*/
+@media (max-width: 754px) {
+    header{
+    display: flex;
+    flex-direction: column; 
+    }
+    .logo {
+    max-width: 2rem;
+    align-self: center;
+    margin-top: -.65rem;
+    }
+
+    .navbar ul{
+    justify-content: center;
+    padding-bottom: .5rem;
+    }
+
+   .nav-link{
+    align-self: center;
+    font-size: .8rem;
+    
+   }
+  
+
+    .form-page{
+     margin-top: -6.5rem;
+    }
+
+ 
+   .cart,
+   .search-bar{
+    display: none;
+   }
+
+   
+#donate-today{
+    display: flex;
+    flex-direction: column;
+  }
+  .asset-donation2{
+    align-self: center;
+    width: 30rem;
+    height: auto;
+   
+}
+.donation-form{
+    align-self: center;
+    border-radius: 30px;
+    margin-top: -12.5rem;
+    padding-top: 13rem;
+    padding-right: 1rem;
+    width: 50%;
+}
+.donation-form h2{
+    font-size: 3rem;
+    color:#7AB0CD;
+    padding-bottom: 1.5rem;
+    max-width: 100%;
+}
+ 
+.subscribe-form-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-form{
+    align-self: center;
+    padding-top: 2rem;
+    width: 25rem;
+    padding-left: 1rem;
+    width: 50%;
+}
+
+.subscribe-img{
+   display: none;
+}
+
+ }
+
+ footer h4{
+    font-size: .55rem;
+ }
+ 
+
+
+ /*md*/
+ @media (max-width: 878px) {
+    header{
+        display: flex;
+        flex-direction: column; 
+    }
+    .logo {
+        max-width: 2rem;
+        align-self: center;
+        margin-top: -.65rem;
+    }
+
+    .navbar ul{
+        justify-content: center;
+        padding-bottom: .5rem;
+    }
+
+   .nav-link{
+    align-self: center;
+    font-size: .8rem;
+    
+   }
+
+   
+
+    .form-page{
+     margin-top: -6.5rem;
+    }
+
+ 
+   .cart,
+   .search-bar{
+    display: none;
+   }
+
+}
+
+/*md*/
+@media (max-width: 900px) {
+    .logo{
+        min-width: 4rem;
+    } 
+
+    .nav-link{
+        font-size: .50rem;
+    }
+   
+    input.search{
+        width: 4rem;
+        height: 1.5rem;
+        border-radius: 15px;
+    }
+
+    .cart{
+        width: .76rem;
+        height: auto;
+        right: 3rem;
+    }
+}
+
+/*md*/
+@media (max-width: 906px) {
+    .logo{
+        min-width: 5.5rem;
+        height: auto;
+        padding: 0 1.5rem .5rem 2.5rem;
+    } 
+
+    .nav-link{
+        font-size: .80rem;
+        color: white;
+        text-decoration: none;
+    }
+    
+   
+    input.search{
+        width: 7.5rem;
+        height: 1.5rem;
+        border-radius: 15px;
+    }
+
+    .cart{
+        width: 1.05rem;
+        height: auto;
+        right: 3rem;
+    }
+   .form-page{
+    margin-top: -7.5rem;
+   }
+   
+    .asset-donation2{
+        width: 15rem;
+        height: auto;
+        margin-top: 5.75rem;
+    } 
+    
+    .subscribe-img{
+        width: 19rem;
+        height: auto;
+        padding-left: 1rem;
+        padding-bottom: 5rem;
+        padding-left: 2rem
+    }
+    .newsletter h2{
+        width: 95%;
+        height: 5rem;
+        font-size: 1.5rem;
+       
+    }
+
+
+}
+
+/*lg*/
+@media (max-width: 1012px){
+
+    .logo{
+        min-width: 8rem;
+        height: auto;
+        padding: 0 1.5rem .5rem 2.5rem;
+    } 
+
+    .nav-link{
+        font-size: .90rem;
+        color: white;
+        text-decoration: none;
+    }
+    
+    input.search{
+        width: 9rem;
+        height: 1.5rem;
+        border-radius: 15px;
+    }
+
+    .cart{
+        width: 1.25rem;
+        height: auto;
+        right: 3rem;
+    }
+    
+    .asset-donation2{
+        max-width: 22rem;
+        padding: 2rem .5rem 2rem 1rem;
+    }   
+    .donation-form h2{
+        font-size: 2.5rem;
+    }
+  
+}
+
+/*xlg*/
+@media (max-width: 1080px){
+    .asset-donation2{
+        max-width: 22rem;
+    }    
+}
+
+

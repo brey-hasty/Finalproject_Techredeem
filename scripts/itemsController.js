@@ -14,6 +14,8 @@
       };
       this.items.push(newItem);
       this.latestItemId = newItem.id; // update the latest item id
+
+      save();
     }
   }
  
@@ -40,5 +42,26 @@
         }
     }
   };
+
+  save(product_Id,item, item_condition,price) {
+    const data = { product_Id,item, item_condition,price };
+
+    fetch('http://localhost:8080/item', {
+    method: 'POST', // or 'PUT'
+    headers: {
+        'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(data),
+    })
+    .then(response => response.json())
+    .then(data => {
+    console.log('Success:', data);
+    })
+    .catch((error) => {
+    console.error('Error:', error);
+    });
+}
+
+
 
   export {newItem, itemsController};
