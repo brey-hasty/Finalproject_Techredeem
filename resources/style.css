@@ -643,7 +643,138 @@ figcaption {
 }
 
 /*About Us Donate section*/
+.donations {
+  background-color: #fbd8ce;
+  height: 600px;
+  margin: 20px 150px;
+  border-radius: 75px;
+}
 
+.d-text {
+  width: 60%;
+  text-align: right;
+  padding-top: 140px;
+}
+.d-text :nth-child(3) {
+  text-align: center;
+}
+.d-text p {
+  margin: 0px;
+  padding: 0px;
+}
+.d-img {
+  width: 40%;
+  /* align-items: center; */
+  justify-content: center;
+  /* position: relative; */
+  display: flex;
+  /* margin-top: 10px; */
+  overflow: hidden;
+}
+
+.d-img img {
+  margin-top: 60px;
+}
+
+.d-help {
+  color: #4c8eb1;
+  font-size: 34px;
+  font-weight: bold;
+  /* float: right; */
+  /* margin-top: 15%; */
+}
+
+.d-title {
+  color: #2e5d74;
+  font-size: 75px;
+  font-weight: bold;
+  padding-right: 135px !important;
+  margin-top: -25px;
+  /* float: right; */
+  /* margin-top: 18%; */
+}
+
+.d-content {
+  color: #4c8eb1;
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 150px !important;
+  margin-left: 40px;
+  position: absolute;
+  width: 55%;
+}
+.learn-more-btn {
+  display: flex;
+  justify-content: center;
+  margin-left: 35%;
+}
+.learn-more {
+  /* justify-content: center;
+    text-align: center;
+    display: flex; */
+  margin-top: 125px;
+  padding: 25px 50px;
+  background-color: inherit;
+  border: 3px solid #4c8eb1;
+  border-radius: 50px;
+}
+/* FAQ  */
+
+.faq {
+  /* width: 50%; */
+  float: left;
+  font-size: 3.125rem;
+  /* padding-top: 2.5rem; */
+  color: #7ab0cd;
+  font-weight: lighter;
+  margin-left: 20%;
+  /* padding-left: 20.5rem; */
+}
+.faq-section {
+  /* overflow: hidden; */
+  width: 80%;
+  margin: 0px auto;
+  /* justify-content: center; */
+  display: block;
+}
+.faq-questions {
+  /* float: left; */
+  /* width: 50%; */
+}
+.faq-image-holder {
+  width: 50%;
+  float: right;
+}
+.faq-img {
+  width: 100%;
+  /* display: inline-block; */
+  float: right;
+  margin-bottom: 1.25rem;
+  border: 1.25rem solid #f4e5e1;
+  z-index: 1111;
+  position: relative;
+}
+.faq-ul {
+  width: 40%;
+  font-weight: bold;
+  font-size: medium;
+  float: left;
+  /* padding-left: 30%; */
+  /* margin-top: 3.4375rem; */
+  /* padding-left: 10.5rem; */
+  list-style: none;
+  z-index: 999999999999999;
+  margin-top: 100px;
+  position: absolute;
+}
+.faq-ul li {
+  border: 2.5px solid #000;
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #fff;
+}
 
 
 /*-----------------media queries-------------------*/
@@ -705,6 +836,18 @@ figcaption {
    .search-bar{
     display: none;
    }
+
+   .faq-section {
+    display: block;
+    height: 500px;
+  }
+  .faq-ul {
+    width: 70%;
+  }
+
+  .faq-image-holder {
+    display: none;
+  }
 
    
 #donate-today{
