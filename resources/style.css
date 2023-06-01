@@ -298,50 +298,176 @@ margin-bottom: 1.25rem;
 }
 
    /* Products Section */ 
-
-.jumbotron {
-    display: flex;
-    background-size: cover;
-    height: 20vw;
-    margin: 1rem 1rem;
-}
-
-   .row {
-    display: flex;
-    justify-content:space-between;
-   }
-  .small-img {
-    transition: all 0.3s;
-    width: 100%;
-    height: 10vw;
-    object-fit: scale-down;
-    margin: 4rem 20rem;
+ 
+ 
+   .jumbotron {  
    
-  } 
-
-  .small-img:hover {
-    transform: scale(1.5);
- }
-
- .card-title,
-.card-text {
-  font-size: 1.5rem;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-}
-
- .arrow-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
+    display: flex;  
+ 
+    background-size: cover;  
+ 
+    height: 20vw;  
+ 
+    margin: 1rem 1rem;  
+ 
+}  
+ 
   
-  .arrows {
-    max-width: 6%; 
-    height: auto; 
-    padding-top: 2rem;
-    padding-bottom: 5rem;
+  
+ 
+.row-1 {  
+ 
+    display: flex;  
+ 
+    justify-content: space-between;  
+ 
+    flex-wrap: wrap;  
+ 
+    margin: -0.5rem;  
+ 
+  }  
+ 
+    
+ 
+  .row-1 > div {  
+ 
+    flex: 0 0 calc(33.3333% - 1rem);  
+ 
+    margin: 0.5rem;  
+ 
+  }  
+ 
+  
+  
+ 
+   .containerprod-fluid {  
+ 
+    width: calc(100%); /* Subtracting 20rem (10rem on each side) from the total width */  
+ 
+       
+ 
+  }  
+ 
+  
+  
+ 
+  .item-img {  
+ 
+    transition: all 0.3s;  
+ 
+    max-width: 73%;  
+ 
+    max-height: 14vw;  
+ 
+    object-fit: scale-down;  
+ 
+    margin-top: 4rem;  
+ 
+    margin-right: 1rem;  
+ 
+    margin-left: 1rem;  
+ 
+    margin-bottom: 1rem;  
+ 
+  }  
+ 
+  .cardprod {  
+ 
+    margin-bottom: 1rem;  
+ 
+  }  
+ 
+  
+  .item-img:hover {  
+ 
+    transform: scale(1.2);  
+ 
+ }  
+ 
+  
+ .card-prodbody {  
+ 
+    display: flex;  
+ 
+    flex-direction: column;  
+ 
+    justify-content: center;  
+ 
+    align-items: center;  
+ 
+  }  
+ 
+ 
+ .prod-name {  
+ 
+        font-size: 1.5rem;  
+ 
+        font-family: Arial, sans-serif;  
+ 
+        font-weight: bold;  
+ 
+        margin-bottom: 0.5rem;  
+ 
+        margin-top: 2rem;  
+ 
+ }  
+ 
+.prod-price {  
+ 
+  font-size: 1.5rem;  
+ 
+  font-family: Arial, sans-serif;  
+ 
+  font-weight: bold;  
+ 
+  margin-bottom: 0.5rem;  
+ 
+}  
+ 
+#myButton {  
+ 
+    padding: 10px 20px;  
+ 
+    background-color: blue;  
+ 
+    color: white;  
+ 
+    font-size: 16px;  
+ 
+    border: none;  
+ 
+    border-radius: 5px; /* Adjust the value to control the roundness */  
+ 
+    cursor: pointer;  
+ 
+}  
+ 
+#myButton:hover {  
+ 
+    background-color: #45a049;  
+ 
+}  
+ 
+ .arrow-container {  
+ 
+    display: flex;  
+ 
+    justify-content: center;  
+ 
+    align-items: center;  
+ 
+ }  
+ 
+  .arrows {  
+ 
+    max-width: 6%;   
+ 
+    height: auto;   
+ 
+    padding-top: 2rem;  
+ 
+    padding-bottom: 5rem;  
+ 
   } 
   
   
@@ -349,51 +475,60 @@ margin-bottom: 1.25rem;
 
 /* About Us section begins here */
 
-.word-container { 
-    font-size: 2rem; 
-    font-weight: 200;
-    color: #7AB0CD; 
-    margin-top: 4rem; 
-    margin-right: 2rem; 
-    padding: 3rem;
-    text-indent: 9rem; 
-    text-align: left; 
-  } 
-   
-  .first-letter { 
-    font-size: 14rem; 
-    font-weight: bold; 
-    opacity: 0.3; 
-    position: absolute; 
-    margin-top: -2rem; 
-    padding: 2.5rem;
-  } 
- 
- 
-.content-wrapper { 
-    color: #7AB0CD; 
-    position: relative; 
-  } 
-   
-  .img-fluid { 
-    
+.About-top{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ margin-bottom: 1rem;
+ width: 100;
+}
+
+
+.logoimg-container {
+ display: flex;
+}
+
+
+.logoimg { 
+
     height: 14rem; 
-    margin-top: 4rem; 
-    margin-left: 4rem; 
+    margin-left: 2rem;
+    padding-left: 10rem; 
+    margin-top: 5.5rem; 
     margin-bottom: 2rem; 
-    margin-right: 0; 
+    margin-right: -8rem; 
+    
   } 
-   
-  .row.gy-3.d-flex { 
-    align-items: flex-start; 
-  } 
-   
-  .col-md-6 { 
-    display: flex; 
-    flex-direction: column; 
-    align-items: flex-start; 
-  } 
-   
+
+ .H span { 
+    position: absolute; 
+    font-size: 14rem; 
+    font-weight: bold;
+    padding-left: 18rem;
+    color:#7AB0CD; 
+    margin-top: 1rem;
+    opacity: 0.3; 
+    width: 55rem;
+  
+  }
+.content-wrapper {
+    padding-right: 10rem;
+}
+  .content{
+    display: flex;
+    flex-direction: row;
+    text-indent: 8rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 200;
+    color:#7AB0CD;
+    justify-content: flex-end;
+    width: 60rem;
+    padding-left: 20rem;
+    margin-top: 2rem;
+    padding-top: 5rem;
+  }
+
   .quote { 
     text-align: center; 
     font-size: 2rem; 
@@ -423,7 +558,8 @@ margin-bottom: 1.25rem;
 .MOT h2{
      display: flex;
      justify-content: center;
-     font-size: 2rem;
+     font-size: 2.5rem;
+     font-weight: 800;
      padding-bottom: 2rem;
      
 }
@@ -441,10 +577,11 @@ margin-bottom: 1.25rem;
 }
 
 figcaption {
-    font-size: .85rem;
-    width: 425px;
+    font-size: 1.10rem;
+    width: 450px;
     padding-top: .55rem;
     padding-bottom: 1rem;
+    padding-left: 1.5rem;
 }
 
 .profile-title{
@@ -452,41 +589,41 @@ figcaption {
 }
 .mary-titles{
     position: relative;
-    right: 23.5rem;
+    right: 26.75em;
     top: 5.5rem;
     font-size: 1rem;
     color:#2F5D75;
 }
 .mary-role h2{
     position: relative;
-    font-size: .95rem;
+    font-size: 1rem;
     font-weight: 400;
-    right: 19.5rem;
-    top: 4rem;
+    right: 22.75rem;
+    top: 3.75rem;
     padding-left: 2rem;
     text-transform: uppercase;
     color: #7AB0CD;
 }
 .milly-titles{
     position: relative;
-    left: 6.5rem;
+    left: 7rem;
     top: 5.5rem;
     font-size: 1rem;
     color:#2F5D75;
 }
 .milly-role h2{
     position: relative;
-    font-size: .95rem;
+    font-size: 1rem;
     font-weight: 400;
-    left: 9rem;
-    top: 4rem;
+    left: 9.75rem;
+    top: 3.75rem;
     text-transform: uppercase;
     color: #7AB0CD;
 }
 
 .brey-titles {
     position: relative;
-    left: 7rem;
+    left: 9rem;
     top: 5.5rem;
     font-size: 1rem;
     color:#2F5D75;
@@ -499,8 +636,8 @@ figcaption {
     word-wrap: break-word;
     font-size: .95rem;
     font-weight: 400;
-    left: 9.5rem;
-    top: 4rem;
+    left: 9.75rem;
+    top: 3.75rem;
     text-transform: uppercase;
     color: #7AB0CD;
 }
